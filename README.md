@@ -1,172 +1,49 @@
-# Cognizant Digital Nurture 5.0 - Java FSE Deep Skilling
+# Digital Nurture 5.0 - Java FSE React Deep Skilling
 
-This repository contains my solutions, notes, and hands-on exercises completed as part of the Cognizant Digital Nurture 5.0 Deep Skilling Program (Java Full Stack Engineer Track).
+This repository contains hands-on exercises, practice programs, and trackers for the Cognizant Digital Nurture 5.0 Deep Skilling Program.
+
+*   **Repository URL:** https://github.com/dhairyagothi/Digital-Nurture-JavaFSE-Cognizant
+*   **Duration:** 7 Weeks
+*   **Track:** Java Full Stack Engineer (FSE) React
+
+---
 
 ## Candidate Details
-
-- Name: Your Name
-- Track: Java Full Stack Engineer (FSE)
-- Program: Cognizant Digital Nurture 5.0
-- Duration: 7 Weeks
+*   **Name:** Your Name
+*   **Track:** Java FSE React
+*   **Program:** Digital Nurture 5.0 Deep Skilling
 
 ---
 
-## Repository Structure
+## Program Sequence & Directories
 
-```text
-Cognizant-DN5-JavaFSE
-│
-├── README.md
-│
-├── Week-01-DesignPatterns-DSA
-│   ├── HandsOn
-│   ├── Notes
-│   ├── PracticePrograms
-│   └── Resources
-│
-├── Week-02-PLSQL
-│   ├── HandsOn
-│   ├── Notes
-│   ├── PracticePrograms
-│   └── Resources
-│
-├── Week-03-TDD-JUnit-Mockito
-│   ├── HandsOn
-│   ├── Notes
-│   ├── PracticePrograms
-│   └── Resources
-│
-├── Week-04-Logging-AutomationTesting
-│   ├── HandsOn
-│   ├── Notes
-│   ├── PracticePrograms
-│   └── Resources
-│
-├── Week-05-SpringCore-Maven
-│   ├── HandsOn
-│   ├── Notes
-│   ├── PracticePrograms
-│   └── Resources
-│
-├── Week-06-Hibernate-SpringDataJPA
-│   ├── HandsOn
-│   ├── Notes
-│   ├── PracticePrograms
-│   └── Resources
-│
-├── Week-07-SpringBoot-REST-Microservices
-│   ├── HandsOn
-│   ├── Notes
-│   ├── PracticePrograms
-│   └── Resources
-│
-├── Week-08-React-Git-Docker-Cloud-GenAI
-│   ├── HandsOn
-│   ├── Notes
-│   ├── PracticePrograms
-│   └── Resources
-│
-└── Mandatory-HandsOn-Tracker
-```
+*   [Week-01-DesignPatterns-DSA](file:///c:/personal%20dg/github_repo/Digital-Nurture-JavaFSE-Cognizant/Week-01-DesignPatterns-DSA/README.md) - SOLID Principles, Design Patterns, Data Structures & Algorithms
+*   [Week-02-PLSQL](file:///c:/personal%20dg/github_repo/Digital-Nurture-JavaFSE-Cognizant/Week-02-PLSQL/README.md) - PL/SQL Syntax, Control Structures, Cursors, Procedures, Functions, Packages & Triggers
+*   [Week-03-TDD-JUnit-Mockito](file:///c:/personal%20dg/github_repo/Digital-Nurture-JavaFSE-Cognizant/Week-03-TDD-JUnit-Mockito/README.md) - Test Driven Development, JUnit 5 Framework & Mockito Mocking
+*   [Week-04-Logging-AutomationTesting](file:///c:/personal%20dg/github_repo/Digital-Nurture-JavaFSE-Cognizant/Week-04-Logging-AutomationTesting/README.md) - SLF4J Logging, Lombok annotations, Automation Testing Process & Tools
+*   [Week-05-SpringCore-Maven](file:///c:/personal%20dg/github_repo/Digital-Nurture-JavaFSE-Cognizant/Week-05-SpringCore-Maven/README.md) - Maven Build Tool, Spring IoC Container, Bean Configuration, Dependency Injection & AOP
+*   [Week-06-Hibernate-SpringDataJPA](file:///c:/personal%20dg/github_repo/Digital-Nurture-JavaFSE-Cognizant/Week-06-Hibernate-SpringDataJPA/README.md) - Entity Mapping, Spring Data Repositories, CRUD, Pagination, Sorting & SonarQube
+*   [Week-07-SpringBoot-REST-Microservices](file:///c:/personal%20dg/github_repo/Digital-Nurture-JavaFSE-Cognizant/Week-07-SpringBoot-REST-Microservices/README.md) - REST Controllers, Spring Boot 3, Microservices Architecture & Spring Cloud
+*   [Week-08-React-Git-Docker-Cloud-GenAI](file:///c:/personal%20dg/github_repo/Digital-Nurture-JavaFSE-Cognizant/Week-08-React-Git-Docker-Cloud-GenAI/README.md) - React Front-end Framework, Git, Docker, Cloud & GenAI Fundamentals
+*   [Mandatory-HandsOn-Tracker](file:///c:/personal%20dg/github_repo/Digital-Nurture-JavaFSE-Cognizant/Mandatory-HandsOn-Trackertouch/README.md) - Progress Tracker for Mandatory Exercises
 
 ---
 
-## Weekly Learning Plan
+## Weekly Completion Status
 
-### Week 1
-- SOLID Principles
-- Design Patterns
-- Data Structures
-- Algorithms
-
-### Week 2
-- PL/SQL Programming
-- Procedures
-- Functions
-- Triggers
-
-### Week 3
-- Test Driven Development
-- JUnit 5
-- Mockito
-
-### Week 4
-- SLF4J Logging
-- Lombok
-- Automation Testing
-
-### Week 5
-- Maven
-- Spring Core
-- Dependency Injection
-
-### Week 6
-- Hibernate
-- Spring Data JPA
-- CRUD Operations
-
-### Week 7
-- Spring Boot
-- REST APIs
-- Microservices
-
-### Week 8
-- React
-- Git & GitHub
-- Docker
-- Cloud Fundamentals
-- GenAI Fundamentals
+| Week | Module / Skill | Status |
+| :--- | :--- | :---: |
+| Week 1 | Design Patterns & DSA | [ ] |
+| Week 2 | PL/SQL Programming | [ ] |
+| Week 3 | TDD, JUnit 5 & Mockito | [ ] |
+| Week 4 | Logging & Automation Testing | [ ] |
+| Week 5 | Spring Core & Maven | [ ] |
+| Week 6 | Hibernate & Spring Data JPA | [ ] |
+| Week 7 | Spring Boot REST & Microservices | [ ] |
+| Week 8 | React, Git, Docker, Cloud & GenAI | [ ] |
 
 ---
 
-## Progress Tracker
-
-| Week | Module | Status |
-|--------|---------|---------|
-| Week 1 | Design Patterns & DSA | ⬜ |
-| Week 2 | PL/SQL | ⬜ |
-| Week 3 | TDD, JUnit & Mockito | ⬜ |
-| Week 4 | Logging & Automation Testing | ⬜ |
-| Week 5 | Spring Core & Maven | ⬜ |
-| Week 6 | Hibernate & Spring Data JPA | ⬜ |
-| Week 7 | Spring Boot & Microservices | ⬜ |
-| Week 8 | React, Git, Docker & Cloud | ⬜ |
-
----
-
-## Technologies Covered
-
-- Java
-- SQL / PL-SQL
-- JUnit 5
-- Mockito
-- SLF4J
-- Lombok
-- Maven
-- Spring Core
-- Spring Boot
-- Hibernate
-- Spring Data JPA
-- REST APIs
-- Microservices
-- React
-- Git & GitHub
-- Docker
-- Cloud Fundamentals
-- Generative AI
-
----
-
-## Objective
-
-The objective of this repository is to maintain all learning materials, practice exercises, and mandatory hands-on solutions completed during the Cognizant Digital Nurture 5.0 Deep Skilling Program.
-
----
-
-## Disclaimer
-
-This repository is maintained for learning and educational purposes as part of the Cognizant Digital Nurture 5.0 Program.
-
----
-
-⭐ Continuous Learning | Consistent Practice | Professional Growth
+## Completion Criteria
+1.  **Hands-on Exercises:** Complete all mandatory hands-on exercises mapped against every skill.
+2.  **Final Assessment:** Pass the Knowledge-Based Assessment (KBA) covering the full program curriculum.
