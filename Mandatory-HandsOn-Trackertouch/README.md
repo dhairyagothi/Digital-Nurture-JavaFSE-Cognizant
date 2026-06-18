@@ -9,10 +9,15 @@ This document tracks the completion of all mandatory exercises for the Digital N
 ## Progress Checklist
 
 ### Week 1: Design Patterns & DSA
-- [ ] SOLID Principles Refactoring
-- [ ] Creational Design Patterns (Factory Method, Builder)
-- [ ] Structural Design Patterns (Adapter, Decorator)
-- [ ] Behavioral Design Patterns (Observer, Strategy)
+- [ ] Exercise 1: Implementing the Singleton Pattern
+- [ ] Exercise 2: Implementing the Factory Method Pattern
+- [ ] Exercise 3: Implementing the Builder Pattern
+- [ ] Exercise 4: Implementing the Adapter Pattern
+- [ ] Exercise 5: Implementing the Decorator Pattern
+- [ ] Exercise 6: Implementing the Proxy Pattern
+- [ ] Exercise 7: Implementing the Observer Pattern
+- [ ] Exercise 8: Implementing the Strategy Pattern
+- [ ] Exercise 9: Implementing the Command Pattern
 - [ ] Data Structures (Arrays & Linked Lists)
 - [ ] Algorithms (Binary Search, Sorting Complexity)
 

@@ -37,3 +37,6 @@ Weekly content focusing on core engineering concepts.
 *   [AdapterPatternExample](./AdapterPatternExample/Main.java) - Implementing the Adapter Pattern
 *   [DecoratorPatternExample](./DecoratorPatternExample/Main.java) - Implementing the Decorator Pattern
 *   [ProxyPatternExample](./ProxyPatternExample/Main.java) - Implementing the Proxy Pattern
+*   [ObserverPatternExample](./ObserverPatternExample/Main.java) - Implementing the Observer Pattern
+*   [StrategyPatternExample](./StrategyPatternExample/Main.java) - Implementing the Strategy Pattern
+*   [CommandPatternExample](./CommandPatternExample/Main.java) - Implementing the Command Pattern

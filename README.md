@@ -9,7 +9,7 @@ This repository contains hands-on exercises, practice programs, and trackers for
 ---
 
 ## Candidate Details
-*   **Name:** Your Name
+*   **Name:** Dhairya Gothi
 *   **Track:** Java FSE React
 *   **Program:** Digital Nurture 5.0 Deep Skilling
 
@@ -17,15 +17,15 @@ This repository contains hands-on exercises, practice programs, and trackers for
 
 ## Program Sequence & Directories
 
-*   [Week-01-DesignPatterns-DSA](file:///c:/personal%20dg/github_repo/Digital-Nurture-JavaFSE-Cognizant/Week-01-DesignPatterns-DSA/README.md) - SOLID Principles, Design Patterns, Data Structures & Algorithms
-*   [Week-02-PLSQL](file:///c:/personal%20dg/github_repo/Digital-Nurture-JavaFSE-Cognizant/Week-02-PLSQL/README.md) - PL/SQL Syntax, Control Structures, Cursors, Procedures, Functions, Packages & Triggers
-*   [Week-03-TDD-JUnit-Mockito](file:///c:/personal%20dg/github_repo/Digital-Nurture-JavaFSE-Cognizant/Week-03-TDD-JUnit-Mockito/README.md) - Test Driven Development, JUnit 5 Framework & Mockito Mocking
-*   [Week-04-Logging-AutomationTesting](file:///c:/personal%20dg/github_repo/Digital-Nurture-JavaFSE-Cognizant/Week-04-Logging-AutomationTesting/README.md) - SLF4J Logging, Lombok annotations, Automation Testing Process & Tools
-*   [Week-05-SpringCore-Maven](file:///c:/personal%20dg/github_repo/Digital-Nurture-JavaFSE-Cognizant/Week-05-SpringCore-Maven/README.md) - Maven Build Tool, Spring IoC Container, Bean Configuration, Dependency Injection & AOP
-*   [Week-06-Hibernate-SpringDataJPA](file:///c:/personal%20dg/github_repo/Digital-Nurture-JavaFSE-Cognizant/Week-06-Hibernate-SpringDataJPA/README.md) - Entity Mapping, Spring Data Repositories, CRUD, Pagination, Sorting & SonarQube
-*   [Week-07-SpringBoot-REST-Microservices](file:///c:/personal%20dg/github_repo/Digital-Nurture-JavaFSE-Cognizant/Week-07-SpringBoot-REST-Microservices/README.md) - REST Controllers, Spring Boot 3, Microservices Architecture & Spring Cloud
-*   [Week-08-React-Git-Docker-Cloud-GenAI](file:///c:/personal%20dg/github_repo/Digital-Nurture-JavaFSE-Cognizant/Week-08-React-Git-Docker-Cloud-GenAI/README.md) - React Front-end Framework, Git, Docker, Cloud & GenAI Fundamentals
-*   [Mandatory-HandsOn-Tracker](file:///c:/personal%20dg/github_repo/Digital-Nurture-JavaFSE-Cognizant/Mandatory-HandsOn-Trackertouch/README.md) - Progress Tracker for Mandatory Exercises
+*   [Week-01-DesignPatterns-DSA](https://github.com/dhairyagothi/Digital-Nurture-JavaFSE-Cognizant/blob/main/Week-01-DesignPatterns-DSA/README.md) - SOLID Principles, Design Patterns, Data Structures & Algorithms
+*   [Week-02-PLSQL](https://github.com/dhairyagothi/Digital-Nurture-JavaFSE-Cognizant/blob/main/Week-02-PLSQL/README.md) - PL/SQL Syntax, Control Structures, Cursors, Procedures, Functions, Packages & Triggers
+*   [Week-03-TDD-JUnit-Mockito](https://github.com/dhairyagothi/Digital-Nurture-JavaFSE-Cognizant/blob/main/Week-03-TDD-JUnit-Mockito/README.md) - Test Driven Development, JUnit 5 Framework & Mockito Mocking
+*   [Week-04-Logging-AutomationTesting](https://github.com/dhairyagothi/Digital-Nurture-JavaFSE-Cognizant/blob/main/Week-04-Logging-AutomationTesting/README.md) - SLF4J Logging, Lombok annotations, Automation Testing Process & Tools
+*   [Week-05-SpringCore-Maven](https://github.com/dhairyagothi/Digital-Nurture-JavaFSE-Cognizant/blob/main/Week-05-SpringCore-Maven/README.md) - Maven Build Tool, Spring IoC Container, Bean Configuration, Dependency Injection & AOP
+*   [Week-06-Hibernate-SpringDataJPA](https://github.com/dhairyagothi/Digital-Nurture-JavaFSE-Cognizant/blob/main/Week-06-Hibernate-SpringDataJPA/README.md) - Entity Mapping, Spring Data Repositories, CRUD, Pagination, Sorting & SonarQube
+*   [Week-07-SpringBoot-REST-Microservices](https://github.com/dhairyagothi/Digital-Nurture-JavaFSE-Cognizant/blob/main/Week-07-SpringBoot-REST-Microservices/README.md) - REST Controllers, Spring Boot 3, Microservices Architecture & Spring Cloud
+*   [Week-08-React-Git-Docker-Cloud-GenAI](https://github.com/dhairyagothi/Digital-Nurture-JavaFSE-Cognizant/blob/main/Week-08-React-Git-Docker-Cloud-GenAI/README.md) - React Front-end Framework, Git, Docker, Cloud & GenAI Fundamentals
+*   [Mandatory-HandsOn-Tracker](https://github.com/dhairyagothi/Digital-Nurture-JavaFSE-Cognizant/blob/main/Mandatory-HandsOn-Tracker/README.md) - Progress Tracker for Mandatory Exercises
 
 ---
 
