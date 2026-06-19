@@ -40,3 +40,5 @@ Weekly content focusing on core engineering concepts.
 *   [ObserverPatternExample](./ObserverPatternExample/Main.java) - Implementing the Observer Pattern
 *   [StrategyPatternExample](./StrategyPatternExample/Main.java) - Implementing the Strategy Pattern
 *   [CommandPatternExample](./CommandPatternExample/Main.java) - Implementing the Command Pattern
+*   [MVCPatternExample](./MVCPatternExample/Main.java) - Implementing the MVC Pattern
+*   [DependencyInjectionExample](./DependencyInjectionExample/Main.java) - Implementing Dependency Injection

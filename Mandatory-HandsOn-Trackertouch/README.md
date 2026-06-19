@@ -18,6 +18,8 @@ This document tracks the completion of all mandatory exercises for the Digital N
 - [ ] Exercise 7: Implementing the Observer Pattern
 - [ ] Exercise 8: Implementing the Strategy Pattern
 - [ ] Exercise 9: Implementing the Command Pattern
+- [ ] Exercise 10: Implementing the MVC Pattern
+- [ ] Exercise 11: Implementing Dependency Injection
 - [ ] Data Structures (Arrays & Linked Lists)
 - [ ] Algorithms (Binary Search, Sorting Complexity)
 
