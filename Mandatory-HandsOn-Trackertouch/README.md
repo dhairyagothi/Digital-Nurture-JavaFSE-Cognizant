@@ -20,8 +20,13 @@ This document tracks the completion of all mandatory exercises for the Digital N
 - [ ] Exercise 9: Implementing the Command Pattern
 - [ ] Exercise 10: Implementing the MVC Pattern
 - [ ] Exercise 11: Implementing Dependency Injection
-- [ ] Data Structures (Arrays & Linked Lists)
-- [ ] Algorithms (Binary Search, Sorting Complexity)
+- [ ] DSA Exercise 1: Inventory Management System
+- [ ] DSA Exercise 2: E-commerce Platform Search Function
+- [ ] DSA Exercise 3: Sorting Customer Orders
+- [ ] DSA Exercise 4: Employee Management System
+- [ ] DSA Exercise 5: Task Management System
+- [ ] DSA Exercise 6: Library Management System
+- [ ] DSA Exercise 7: Financial Forecasting
 
 ### Week 2: PL/SQL Programming
 - [ ] Basic Syntax & Anonymous Blocks
