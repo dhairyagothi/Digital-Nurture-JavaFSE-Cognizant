@@ -107,3 +107,15 @@ This directory focuses on core Data Structures and Algorithms (DSA) concepts req
     4.  **Analysis:**
         -   Discuss the time complexity of your recursive algorithm.
         -   Explain how to optimize the recursive solution to avoid excessive computation.
+
+---
+
+## Hands-On Exercises
+
+*   [InventoryManagementSystem](./InventoryManagementSystem/Main.java) - Exercise 1: Inventory Management System
+*   [ECommercePlatformSearch](./ECommercePlatformSearch/Main.java) - Exercise 2: E-commerce Platform Search Function
+*   [SortingCustomerOrders](./SortingCustomerOrders/Main.java) - Exercise 3: Sorting Customer Orders
+*   [EmployeeManagementSystem](./EmployeeManagementSystem/Main.java) - Exercise 4: Employee Management System
+*   [TaskManagementSystem](./TaskManagementSystem/Main.java) - Exercise 5: Task Management System
+*   [LibraryManagementSystem](./LibraryManagementSystem/Main.java) - Exercise 6: Library Management System
+*   [FinancialForecasting](./FinancialForecasting/Main.java) - Exercise 7: Financial Forecasting
