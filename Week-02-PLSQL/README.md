@@ -38,8 +38,10 @@ Weekly content focusing on procedural SQL logic.
 
 ---
 
-## Weekly Tasks
-- Write anonymous PL/SQL blocks demonstrating variable scope and conditionals.
-- Implement explicit cursors to fetch table rows.
-- Code functions and procedures with IN/OUT parameters.
-- Build database triggers for audit logs and constraint checking.
+## Hands-On Exercises
+
+*   [ControlStructures](./ControlStructures/Main.sql) - Exercise 1: Control Structures
+*   [ErrorHandling](./ErrorHandling/Main.sql) - Exercise 2: Error Handling
+*   [StoredProcedures](./StoredProcedures/Main.sql) - Exercise 3: Stored Procedures
+*   [Functions](./Functions/Main.sql) - Exercise 4: Functions
+*   [Triggers](./Triggers/Main.sql) - Exercise 5: Triggers
