@@ -49,12 +49,12 @@ END UpdateSalary;
 CREATE OR REPLACE PROCEDURE AddNewCustomer(
     p_CustomerID  IN NUMBER,
     p_Name        IN VARCHAR2,
-    p_DateOfBirth IN DATE,
+    p_DOB         IN DATE,
     p_Balance     IN NUMBER
 ) IS
 BEGIN
-    INSERT INTO Customers (CustomerID, Name, DateOfBirth, Balance, IsVIP)
-    VALUES (p_CustomerID, p_Name, p_DateOfBirth, p_Balance, 'FALSE');
+    INSERT INTO Customers (CustomerID, Name, DOB, Balance, IsVIP)
+    VALUES (p_CustomerID, p_Name, p_DOB, p_Balance, 'FALSE');
     COMMIT;
 EXCEPTION
     WHEN DUP_VAL_ON_INDEX THEN

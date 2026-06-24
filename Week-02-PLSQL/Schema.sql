@@ -1,7 +1,7 @@
 CREATE TABLE Customers (
     CustomerID NUMBER PRIMARY KEY,
     Name VARCHAR2(100),
-    DateOfBirth DATE,
+    DOB DATE,
     Balance NUMBER,
     IsVIP VARCHAR2(10) DEFAULT 'FALSE',
     LastModified DATE
@@ -9,32 +9,39 @@ CREATE TABLE Customers (
 
 CREATE TABLE Accounts (
     AccountID NUMBER PRIMARY KEY,
-    CustomerID NUMBER REFERENCES Customers(CustomerID),
+    CustomerID NUMBER,
     AccountType VARCHAR2(20),
-    Balance NUMBER
+    Balance NUMBER,
+    LastModified DATE,
+    FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID)
+);
+
+CREATE TABLE Transactions (
+    TransactionID NUMBER PRIMARY KEY,
+    AccountID NUMBER,
+    TransactionDate DATE,
+    Amount NUMBER,
+    TransactionType VARCHAR2(10),
+    FOREIGN KEY (AccountID) REFERENCES Accounts(AccountID)
 );
 
 CREATE TABLE Loans (
     LoanID NUMBER PRIMARY KEY,
-    CustomerID NUMBER REFERENCES Customers(CustomerID),
-    PrincipalAmount NUMBER,
+    CustomerID NUMBER,
+    LoanAmount NUMBER,
     InterestRate NUMBER,
-    EndDate DATE
+    StartDate DATE,
+    EndDate DATE,
+    FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID)
 );
 
 CREATE TABLE Employees (
     EmployeeID NUMBER PRIMARY KEY,
     Name VARCHAR2(100),
+    Position VARCHAR2(50),
+    Salary NUMBER,
     Department VARCHAR2(50),
-    Salary NUMBER
-);
-
-CREATE TABLE Transactions (
-    TransactionID NUMBER PRIMARY KEY,
-    AccountID NUMBER REFERENCES Accounts(AccountID),
-    TransactionDate DATE,
-    Amount NUMBER,
-    TransactionType VARCHAR2(20)
+    HireDate DATE
 );
 
 CREATE TABLE AuditLog (
@@ -47,37 +54,31 @@ CREATE TABLE AuditLog (
     LogDate DATE
 );
 
-INSERT INTO Customers (CustomerID, Name, DateOfBirth, Balance, IsVIP, LastModified)
-VALUES (1, 'Alice Smith', '1955-06-15', 12000, 'FALSE', CURRENT_DATE);
+INSERT INTO Customers (CustomerID, Name, DOB, Balance, IsVIP, LastModified)
+VALUES (1, 'John Doe', '1985-05-15', 1000, 'FALSE', CURRENT_DATE);
 
-INSERT INTO Customers (CustomerID, Name, DateOfBirth, Balance, IsVIP, LastModified)
-VALUES (2, 'Bob Johnson', '1985-03-22', 8500, 'FALSE', CURRENT_DATE);
+INSERT INTO Customers (CustomerID, Name, DOB, Balance, IsVIP, LastModified)
+VALUES (2, 'Jane Smith', '1990-07-20', 1500, 'FALSE', CURRENT_DATE);
 
-INSERT INTO Customers (CustomerID, Name, DateOfBirth, Balance, IsVIP, LastModified)
-VALUES (3, 'John Miller', '1960-11-05', 15000, 'FALSE', CURRENT_DATE);
+INSERT INTO Accounts (AccountID, CustomerID, AccountType, Balance, LastModified)
+VALUES (1, 1, 'Savings', 1000, CURRENT_DATE);
 
-INSERT INTO Accounts (AccountID, CustomerID, AccountType, Balance)
-VALUES (101, 1, 'Savings', 12000);
+INSERT INTO Accounts (AccountID, CustomerID, AccountType, Balance, LastModified)
+VALUES (2, 2, 'Checking', 1500, CURRENT_DATE);
 
-INSERT INTO Accounts (AccountID, CustomerID, AccountType, Balance)
-VALUES (102, 2, 'Checking', 8500);
+INSERT INTO Transactions (TransactionID, AccountID, TransactionDate, Amount, TransactionType)
+VALUES (1, 1, CURRENT_DATE, 200, 'Deposit');
 
-INSERT INTO Accounts (AccountID, CustomerID, AccountType, Balance)
-VALUES (103, 3, 'Savings', 15000);
+INSERT INTO Transactions (TransactionID, AccountID, TransactionDate, Amount, TransactionType)
+VALUES (2, 2, CURRENT_DATE, 300, 'Withdrawal');
 
-INSERT INTO Loans (LoanID, CustomerID, PrincipalAmount, InterestRate, EndDate)
-VALUES (501, 1, 50000, 7.5, CURRENT_DATE + 15);
+INSERT INTO Loans (LoanID, CustomerID, LoanAmount, InterestRate, StartDate, EndDate)
+VALUES (1, 1, 5000, 5, CURRENT_DATE, '2031-06-24');
 
-INSERT INTO Loans (LoanID, CustomerID, PrincipalAmount, InterestRate, EndDate)
-VALUES (502, 2, 15000, 8.0, CURRENT_DATE + 45);
+INSERT INTO Employees (EmployeeID, Name, Position, Salary, Department, HireDate)
+VALUES (1, 'Alice Johnson', 'Manager', 70000, 'HR', '2015-06-15');
 
-INSERT INTO Loans (LoanID, CustomerID, PrincipalAmount, InterestRate, EndDate)
-VALUES (503, 3, 20000, 6.5, CURRENT_DATE + 10);
-
-INSERT INTO Employees (EmployeeID, Name, Department, Salary)
-VALUES (1001, 'Charlie Brown', 'IT', 75000);
-
-INSERT INTO Employees (EmployeeID, Name, Department, Salary)
-VALUES (1002, 'Diana Prince', 'HR', 65000);
+INSERT INTO Employees (EmployeeID, Name, Position, Salary, Department, HireDate)
+VALUES (2, 'Bob Brown', 'Developer', 60000, 'IT', '2017-03-20');
 
 COMMIT;

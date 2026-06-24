@@ -45,3 +45,5 @@ Weekly content focusing on procedural SQL logic.
 *   [StoredProcedures](./StoredProcedures/Main.sql) - Exercise 3: Stored Procedures
 *   [Functions](./Functions/Main.sql) - Exercise 4: Functions
 *   [Triggers](./Triggers/Main.sql) - Exercise 5: Triggers
+*   [Cursors](./Cursors/Main.sql) - Exercise 6: Cursors
+*   [Packages](./Packages/Main.sql) - Exercise 7: Packages

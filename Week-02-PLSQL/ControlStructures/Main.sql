@@ -1,11 +1,11 @@
 DECLARE
     CURSOR c_customers IS
-        SELECT CustomerID, DateOfBirth
+        SELECT CustomerID, DOB
         FROM Customers;
     v_age NUMBER;
 BEGIN
     FOR r_cust IN c_customers LOOP
-        v_age := FLOOR(MONTHS_BETWEEN(CURRENT_DATE, r_cust.DateOfBirth) / 12);
+        v_age := FLOOR(MONTHS_BETWEEN(CURRENT_DATE, r_cust.DOB) / 12);
         IF v_age > 60 THEN
             UPDATE Loans
             SET InterestRate = InterestRate - 1
