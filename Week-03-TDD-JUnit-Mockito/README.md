@@ -31,3 +31,12 @@ Weekly content focusing on unit testing and test isolation.
 - Write a utility library following strict TDD cycles.
 - Create parameterized JUnit 5 test suites.
 - Code mock repository objects using Mockito and write service-level unit tests.
+
+---
+
+## Hands-On Exercises
+
+*   [pom.xml](file:///c:/personal%20dg/github_repo/Digital-Nurture-JavaFSE-Cognizant/Week-03-TDD-JUnit-Mockito/pom.xml) - Maven Project configuration with JUnit dependency
+*   [Calculator](file:///c:/personal%20dg/github_repo/Digital-Nurture-JavaFSE-Cognizant/Week-03-TDD-JUnit-Mockito/src/main/java/com/example/Calculator.java) / [Test](file:///c:/personal%20dg/github_repo/Digital-Nurture-JavaFSE-Cognizant/Week-03-TDD-JUnit-Mockito/src/test/java/com/example/CalculatorTest.java) - Exercise 2: Basic JUnit Tests
+*   [AssertionsTest](file:///c:/personal%20dg/github_repo/Digital-Nurture-JavaFSE-Cognizant/Week-03-TDD-JUnit-Mockito/src/test/java/com/example/AssertionsTest.java) - Exercise 3: Assertions in JUnit
+*   [BankAccount](file:///c:/personal%20dg/github_repo/Digital-Nurture-JavaFSE-Cognizant/Week-03-TDD-JUnit-Mockito/src/main/java/com/example/BankAccount.java) / [Test](file:///c:/personal%20dg/github_repo/Digital-Nurture-JavaFSE-Cognizant/Week-03-TDD-JUnit-Mockito/src/test/java/com/example/BankAccountTest.java) - Exercise 4: AAA Pattern and Test Fixtures
