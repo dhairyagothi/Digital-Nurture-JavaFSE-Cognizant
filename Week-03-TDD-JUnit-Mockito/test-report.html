@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JUnit & Mockito Test Execution Dashboard</title>
+    <title>JUnit, Mockito & Spring Test Execution Dashboard</title>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -291,8 +291,8 @@
     <div class="dashboard-container">
         <div class="header">
             <div class="title-area">
-                <h1>JUnit & Mockito Execution Dashboard</h1>
-                <p>Digital-Nurture-JavaFSE-Cognizant &bull; Week 3 Complete Test Suites</p>
+                <h1>JUnit, Mockito & Spring Test Dashboard</h1>
+                <p>Digital-Nurture-JavaFSE-Cognizant &bull; Week 3 Complete Spring Test Suite</p>
             </div>
             <div class="status-badge">
                 <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
@@ -304,11 +304,11 @@
 
         <div class="stats-grid">
             <div class="stat-card">
-                <div class="stat-val">82</div>
-                <div class="stat-label">Total Tests</div>
+                <div class="stat-val">106</div>
+                <div class="stat-label">Total runs</div>
             </div>
             <div class="stat-card">
-                <div class="stat-val passed">82</div>
+                <div class="stat-val passed">106</div>
                 <div class="stat-label">Passed</div>
             </div>
             <div class="stat-card">
@@ -316,7 +316,7 @@
                 <div class="stat-label">Failed</div>
             </div>
             <div class="stat-card">
-                <div class="stat-val">5.5 s</div>
+                <div class="stat-val">19.6 s</div>
                 <div class="stat-label">Duration</div>
             </div>
         </div>
@@ -325,117 +325,96 @@
             <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"/>
             </svg>
-            Mockito Hands-On Exercise Groups
+            Spring Boot Testing Exercises (Exercises 1–9)
         </div>
 
         <div class="test-list">
-            <!-- MyServiceTest -->
+            <!-- Services and Repositories -->
             <div class="test-group">
                 <div class="group-header">
                     <div class="group-name">
                         <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                             <path d="M12 1A1 1 0 0 1 13 2V14A1 1 0 0 1 12 15H4A1 1 0 0 1 3 14V2A1 1 0 0 1 4 1H12Z"/>
                         </svg>
-                        MyServiceTest (Mockito Basics 1-7)
+                        Spring Service & Repository Tests
                     </div>
-                    <span class="group-badge">7 Tests</span>
+                    <span class="group-badge">8 Tests</span>
                 </div>
                 <div class="test-item">
                     <div class="test-info">
                         <span class="status-icon">✓</span>
-                        <span>testExternalApi() [Mock & Stub]</span>
-                    </div>
-                    <span class="test-time">10 ms</span>
-                </div>
-                <div class="test-item">
-                    <div class="test-info">
-                        <span class="status-icon">✓</span>
-                        <span>testVerifyInteraction() [Verify]</span>
+                        <span>CalculatorServiceTest.testAdd() [Basic service test]</span>
                     </div>
                     <span class="test-time">2 ms</span>
                 </div>
                 <div class="test-item">
                     <div class="test-info">
                         <span class="status-icon">✓</span>
-                        <span>testArgumentMatching() [Matchers]</span>
+                        <span>UserServiceTest.testGetUserById() [Mocking UserRepository]</span>
+                    </div>
+                    <span class="test-time">16 ms</span>
+                </div>
+                <div class="test-item">
+                    <div class="test-info">
+                        <span class="status-icon">✓</span>
+                        <span>UserServiceTest.testGetUserByIdNotFound() [Service exception handling]</span>
                     </div>
                     <span class="test-time">5 ms</span>
                 </div>
                 <div class="test-item">
                     <div class="test-info">
                         <span class="status-icon">✓</span>
-                        <span>testVoidMethod() [Void handling]</span>
+                        <span>UserRepositoryTest.testFindByName() [JPA Custom query test]</span>
                     </div>
-                    <span class="test-time">2 ms</span>
+                    <span class="test-time">55 ms</span>
                 </div>
                 <div class="test-item">
                     <div class="test-info">
                         <span class="status-icon">✓</span>
-                        <span>testMultipleReturns() [Consecutive calls]</span>
+                        <span>CalculatorServiceParameterizedTest (4 tests) [CsvSource inputs]</span>
                     </div>
-                    <span class="test-time">2 ms</span>
-                </div>
-                <div class="test-item">
-                    <div class="test-info">
-                        <span class="status-icon">✓</span>
-                        <span>testInteractionOrder() [InOrder]</span>
-                    </div>
-                    <span class="test-time">3 ms</span>
-                </div>
-                <div class="test-item">
-                    <div class="test-info">
-                        <span class="status-icon">✓</span>
-                        <span>testVoidMethodWithException() [doThrow]</span>
-                    </div>
-                    <span class="test-time">2 ms</span>
+                    <span class="test-time">17 ms</span>
                 </div>
             </div>
 
-            <!-- Advanced Mockito Tests -->
+            <!-- Controllers and Integration -->
             <div class="test-group">
                 <div class="group-header">
                     <div class="group-name">
                         <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                             <path d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2z"/>
                         </svg>
-                        Advanced Mockito Tasks (Exercises 1-5)
+                        Spring Web & Integration Flows
                     </div>
-                    <span class="group-badge">5 Tests</span>
+                    <span class="group-badge">4 Tests</span>
                 </div>
                 <div class="test-item">
                     <div class="test-info">
                         <span class="status-icon">✓</span>
-                        <span>testServiceWithMockRepository() [Database mock]</span>
+                        <span>UserControllerTest.testGetUserSuccess() [MockMvc GET user]</span>
                     </div>
-                    <span class="test-time">4 ms</span>
+                    <span class="test-time">40 ms</span>
                 </div>
                 <div class="test-item">
                     <div class="test-info">
                         <span class="status-icon">✓</span>
-                        <span>testServiceWithMockRestClient() [REST API mock]</span>
+                        <span>UserControllerTest.testCreateUser() [MockMvc POST user]</span>
                     </div>
-                    <span class="test-time">4 ms</span>
+                    <span class="test-time">30 ms</span>
                 </div>
                 <div class="test-item">
                     <div class="test-info">
                         <span class="status-icon">✓</span>
-                        <span>testServiceWithMockFileIO() [File I/O mock]</span>
+                        <span>UserControllerTest.testGetUserNotFound() [ControllerAdvice handler]</span>
                     </div>
-                    <span class="test-time">5 ms</span>
+                    <span class="test-time">12 ms</span>
                 </div>
                 <div class="test-item">
                     <div class="test-info">
                         <span class="status-icon">✓</span>
-                        <span>testServiceWithMockNetworkClient() [Network mock]</span>
+                        <span>UserIntegrationTest.testCreateAndGetFlow() [SpringBootTest integration flow]</span>
                     </div>
-                    <span class="test-time">3 ms</span>
-                </div>
-                <div class="test-item">
-                    <div class="test-info">
-                        <span class="status-icon">✓</span>
-                        <span>testServiceWithMultipleReturnValues() [Multi returns]</span>
-                    </div>
-                    <span class="test-time">4 ms</span>
+                    <span class="test-time">32 ms</span>
                 </div>
             </div>
         </div>
@@ -444,7 +423,7 @@
             <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
             </svg>
-            JUnit Platform Console Execution (JVM 23 & ByteBuddy Inline)
+            Maven Build and Surefire Test Execution Output
         </div>
 
         <div class="terminal-container">
@@ -454,34 +433,33 @@
                     <div class="dot dot-yellow"></div>
                     <div class="dot dot-green"></div>
                 </div>
-                <div class="terminal-title">POWERSHELL &bull; JUNIT 5 STANDALONE ENGINE</div>
+                <div class="terminal-title">POWERSHELL &bull; MAVEN BUILD & SUREFIRE ENGINE</div>
             </div>
             <div class="terminal-body">
-                <span class="term-info">PS C:\Week-03-TDD-JUnit-Mockito&gt;</span> <span class="term-cmd">java "-Dnet.bytebuddy.experimental=true" -jar lib/junit-platform-console-standalone-1.10.1.jar --class-path "bin;lib/mockito-core-5.8.0.jar;lib/byte-buddy-1.14.10.jar;lib/byte-buddy-agent-1.14.10.jar;lib/objenesis-3.3.jar" --select-package com.example</span><br>
-                <span>Thanks for using JUnit! Support its development at https://junit.org/sponsoring</span><br>
-                <span>+-- JUnit Jupiter [OK]</span><br>
-                <span>| +-- ApiServiceTest [OK]</span><br>
-                <span>| +-- EvenCheckerTest [OK]</span><br>
-                <span>| +-- OrderedTests [OK]</span><br>
-                <span>| +-- ServiceTest [OK]</span><br>
-                <span>| +-- ExceptionThrowerTest [OK]</span><br>
-                <span>| +-- NetworkServiceTest [OK]</span><br>
-                <span>| +-- MyServiceTest [OK]</span><br>
-                <span>| +-- FileServiceTest [OK]</span><br>
-                <span>| '-- PerformanceTesterTest [OK]</span><br>
-                <span>+-- JUnit Vintage [OK]</span><br>
-                <span>| +-- AssertionsTest [OK]</span><br>
-                <span>| +-- BankAccountTest [OK]</span><br>
-                <span>| '-- CalculatorTest [OK]</span><br>
-                <span>'-- JUnit Platform Suite [OK]</span><br>
-                <span>  '-- AllTests [OK]</span><br>
+                <span class="term-info">PS C:\Week-03-TDD-JUnit-Mockito&gt;</span> <span class="term-cmd">lib/maven/apache-maven-3.9.6/bin/mvn test</span><br>
+                <span>[INFO] Scanning for projects...</span><br>
+                <span>[INFO] Building week03-tdd-junit-mockito 1.0-SNAPSHOT</span><br>
+                <span>[INFO] --- maven-compiler-plugin:3.11.0:testCompile (default-testCompile) ---</span><br>
+                <span>[INFO] --- maven-surefire-plugin:3.2.3:test (default-test) ---</span><br>
+                <span>[INFO] Running com.example.spring.UserRepositoryTest</span><br>
+                <span>Hibernate: drop table if exists users cascade</span><br>
+                <span>Hibernate: create table users (id bigint not null, name varchar(255), primary key (id))</span><br>
+                <span class="term-success">[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0</span><br>
+                <span>[INFO] Running com.example.spring.UserServiceTest</span><br>
+                <span class="term-success">[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0</span><br>
+                <span>[INFO] Running com.example.spring.UserControllerTest</span><br>
+                <span class="term-success">[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0</span><br>
+                <span>[INFO] Running com.example.spring.UserIntegrationTest</span><br>
+                <span class="term-success">[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0</span><br>
+                <span>[INFO] Running com.example.spring.CalculatorServiceParameterizedTest</span><br>
+                <span class="term-success">[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0</span><br>
+                <span>[INFO] Running com.example.AllTests (JUnit Platform Suite)</span><br>
                 <br>
-                <span class="term-success">Test run finished after 5588 ms</span><br>
-                <span>[        36 containers found      ]</span><br>
-                <span>[        82 tests found           ]</span><br>
-                <span class="term-success">[        82 tests successful      ]</span><br>
-                <span>[         0 tests failed          ]</span><br>
-                <br>
+                <span class="term-success">[INFO] Results:</span><br>
+                <span class="term-success">[INFO] Tests run: 106, Failures: 0, Errors: 0, Skipped: 0</span><br>
+                <span>[INFO] ------------------------------------------------------------------------</span><br>
+                <span class="term-success">[INFO] BUILD SUCCESS</span><br>
+                <span>[INFO] Total time: 19.637 s</span><br>
                 <span class="term-info">PS C:\Week-03-TDD-JUnit-Mockito&gt;</span>
             </div>
         </div>

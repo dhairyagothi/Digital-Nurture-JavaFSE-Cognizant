@@ -3,6 +3,7 @@ package com.example;
 import org.junit.platform.suite.api.SelectClasses;
 import org.junit.platform.suite.api.Suite;
 import com.example.advanced.*;
+import com.example.spring.*;
 
 @Suite
 @SelectClasses({
@@ -18,7 +19,13 @@ import com.example.advanced.*;
     ApiServiceTest.class,
     FileServiceTest.class,
     NetworkServiceTest.class,
-    MultiReturnServiceTest.class
+    MultiReturnServiceTest.class,
+    CalculatorServiceTest.class,
+    UserServiceTest.class,
+    UserControllerTest.class,
+    UserRepositoryTest.class,
+    UserIntegrationTest.class,
+    CalculatorServiceParameterizedTest.class
 })
 public class AllTests {
 }
