@@ -65,3 +65,8 @@ Weekly content focusing on unit testing and test isolation.
 *   [RepositoryTest](file:///c:/personal%20dg/github_repo/Digital-Nurture-JavaFSE-Cognizant/Week-03-TDD-JUnit-Mockito/src/test/java/com/example/spring/UserRepositoryTest.java) - Exercise 7: Custom Repository Query Method
 *   [IntegrationTest](file:///c:/personal%20dg/github_repo/Digital-Nurture-JavaFSE-Cognizant/Week-03-TDD-JUnit-Mockito/src/test/java/com/example/spring/UserIntegrationTest.java) - Exercise 4: Full Flow Integration Test with H2 Database
 *   [ParameterizedTest](file:///c:/personal%20dg/github_repo/Digital-Nurture-JavaFSE-Cognizant/Week-03-TDD-JUnit-Mockito/src/test/java/com/example/spring/CalculatorServiceParameterizedTest.java) - Exercise 9: Parameterized CsvSource test
+
+### Mocking Dependencies in Spring Tests
+*   [UserControllerTest](file:///c:/personal%20dg/github_repo/Digital-Nurture-JavaFSE-Cognizant/Week-03-TDD-JUnit-Mockito/src/test/java/com/example/spring/mocking/UserControllerTest.java) - Exercise 1: Mocking Service Dependency in Controller Test
+*   [UserServiceTest](file:///c:/personal%20dg/github_repo/Digital-Nurture-JavaFSE-Cognizant/Week-03-TDD-JUnit-Mockito/src/test/java/com/example/spring/mocking/UserServiceTest.java) - Exercise 2: Mocking Repository in Service Test
+*   [UserIntegrationTest](file:///c:/personal%20dg/github_repo/Digital-Nurture-JavaFSE-Cognizant/Week-03-TDD-JUnit-Mockito/src/test/java/com/example/spring/mocking/UserIntegrationTest.java) - Exercise 3: Mocking Service Dependency in Integration Test

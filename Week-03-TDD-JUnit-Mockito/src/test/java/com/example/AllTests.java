@@ -25,7 +25,10 @@ import com.example.spring.*;
     UserControllerTest.class,
     UserRepositoryTest.class,
     UserIntegrationTest.class,
-    CalculatorServiceParameterizedTest.class
+    CalculatorServiceParameterizedTest.class,
+    com.example.spring.mocking.UserControllerTest.class,
+    com.example.spring.mocking.UserServiceTest.class,
+    com.example.spring.mocking.UserIntegrationTest.class
 })
 public class AllTests {
 }

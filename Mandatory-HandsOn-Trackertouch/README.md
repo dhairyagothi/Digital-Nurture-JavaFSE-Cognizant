@@ -9,38 +9,38 @@ This document tracks the completion of all mandatory exercises for the Digital N
 ## Progress Checklist
 
 ### Week 1: Design Patterns & DSA
-- [ ] Exercise 1: Implementing the Singleton Pattern
-- [ ] Exercise 2: Implementing the Factory Method Pattern
-- [ ] Exercise 3: Implementing the Builder Pattern
-- [ ] Exercise 4: Implementing the Adapter Pattern
-- [ ] Exercise 5: Implementing the Decorator Pattern
-- [ ] Exercise 6: Implementing the Proxy Pattern
-- [ ] Exercise 7: Implementing the Observer Pattern
-- [ ] Exercise 8: Implementing the Strategy Pattern
-- [ ] Exercise 9: Implementing the Command Pattern
-- [ ] Exercise 10: Implementing the MVC Pattern
-- [ ] Exercise 11: Implementing Dependency Injection
-- [ ] DSA Exercise 1: Inventory Management System
-- [ ] DSA Exercise 2: E-commerce Platform Search Function
-- [ ] DSA Exercise 3: Sorting Customer Orders
-- [ ] DSA Exercise 4: Employee Management System
-- [ ] DSA Exercise 5: Task Management System
-- [ ] DSA Exercise 6: Library Management System
-- [ ] DSA Exercise 7: Financial Forecasting
+- [x] Exercise 1: Implementing the Singleton Pattern
+- [x] Exercise 2: Implementing the Factory Method Pattern
+- [x] Exercise 3: Implementing the Builder Pattern
+- [x] Exercise 4: Implementing the Adapter Pattern
+- [x] Exercise 5: Implementing the Decorator Pattern
+- [x] Exercise 6: Implementing the Proxy Pattern
+- [x] Exercise 7: Implementing the Observer Pattern
+- [x] Exercise 8: Implementing the Strategy Pattern
+- [x] Exercise 9: Implementing the Command Pattern
+- [x] Exercise 10: Implementing the MVC Pattern
+- [x] Exercise 11: Implementing Dependency Injection
+- [x] DSA Exercise 1: Inventory Management System
+- [x] DSA Exercise 2: E-commerce Platform Search Function
+- [x] DSA Exercise 3: Sorting Customer Orders
+- [x] DSA Exercise 4: Employee Management System
+- [x] DSA Exercise 5: Task Management System
+- [x] DSA Exercise 6: Library Management System
+- [x] DSA Exercise 7: Financial Forecasting
 
 ### Week 2: PL/SQL Programming
-- [ ] Basic Syntax & Anonymous Blocks
-- [ ] Control Structures (Loops & Conditionals)
-- [ ] Exception Handling (User-defined & Predefined)
-- [ ] Cursors (Implicit & Explicit)
-- [ ] Stored Procedures & Functions
-- [ ] Packages & Database Triggers
+- [x] Basic Syntax & Anonymous Blocks
+- [x] Control Structures (Loops & Conditionals)
+- [x] Exception Handling (User-defined & Predefined)
+- [x] Cursors (Implicit & Explicit)
+- [x] Stored Procedures & Functions
+- [x] Packages & Database Triggers
 
 ### Week 3: Test Driven Development & Mocking
-- [ ] TDD Red-Green-Refactor implementation
-- [ ] JUnit 5 Basic Assertions & AAA structure
-- [ ] Parameterized & Exception Testing in JUnit
-- [ ] Mockito Mocking, Stubbing, and verification
+- [x] TDD Red-Green-Refactor implementation
+- [x] JUnit 5 Basic Assertions & AAA structure
+- [x] Parameterized & Exception Testing in JUnit
+- [x] Mockito Mocking, Stubbing, and verification
 
 ### Week 4: Logging & Automation Testing
 - [ ] SLF4J Log Levels & Appenders configuration
