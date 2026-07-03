@@ -43,7 +43,7 @@ This document tracks the completion of all mandatory exercises for the Digital N
 - [x] Mockito Mocking, Stubbing, and verification
 
 ### Week 4: Logging & Automation Testing
-- [ ] SLF4J Log Levels & Appenders configuration
+- [x] SLF4J Log Levels & Appenders configuration
 - [ ] Project Lombok annotations (@Data, @Builder, @Slf4j)
 - [ ] Basic Automation Test Script (Selenium/Cucumber features)
 

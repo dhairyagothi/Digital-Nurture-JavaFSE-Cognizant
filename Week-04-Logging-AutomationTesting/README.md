@@ -32,3 +32,8 @@ Weekly content focusing on logging diagnostics, boilerplate reduction, and autom
 - Configure SLF4J logger with console and file appenders.
 - Refactor Java classes to use Lombok annotations.
 - Define a basic Selenium script or Cucumber test scenario.
+
+### SLF4J Logging Hands-On Exercises
+*   [LoggingExample](file:///c:/personal%20dg/github_repo/Digital-Nurture-JavaFSE-Cognizant/Week-04-Logging-AutomationTesting/src/main/java/com/example/LoggingExample.java) - Exercise 1: Logging Error Messages and Warning Levels
+*   [ParameterizedLoggingExample](file:///c:/personal%20dg/github_repo/Digital-Nurture-JavaFSE-Cognizant/Week-04-Logging-AutomationTesting/src/main/java/com/example/ParameterizedLoggingExample.java) - Exercise 2: Parameterized Logging
+*   [logback.xml](file:///c:/personal%20dg/github_repo/Digital-Nurture-JavaFSE-Cognizant/Week-04-Logging-AutomationTesting/src/main/resources/logback.xml) / [AppenderLoggingExample](file:///c:/personal%20dg/github_repo/Digital-Nurture-JavaFSE-Cognizant/Week-04-Logging-AutomationTesting/src/main/java/com/example/AppenderLoggingExample.java) - Exercise 3: Using Different Appenders (Console & File)
