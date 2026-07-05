@@ -48,10 +48,10 @@ This document tracks the completion of all mandatory exercises for the Digital N
 - [ ] Basic Automation Test Script (Selenium/Cucumber features)
 
 ### Week 5: Spring Core & Maven
-- [ ] Maven project setup and pom.xml configuration
-- [ ] Spring IoC Container and Bean definitions (XML + Annotation)
-- [ ] Dependency Injection (Constructor vs Setter, Autowiring)
-- [ ] Aspect-Oriented Programming (AOP Logging Aspect)
+- [x] Maven project setup and pom.xml configuration
+- [x] Spring IoC Container and Bean definitions (XML + Annotation)
+- [x] Dependency Injection (Constructor vs Setter, Autowiring)
+- [x] Aspect-Oriented Programming (AOP Logging Aspect)
 
 ### Week 6: Hibernate & Spring Data JPA
 - [ ] JPA Entity Mapping and Relationships (@OneToMany, @ManyToOne)
