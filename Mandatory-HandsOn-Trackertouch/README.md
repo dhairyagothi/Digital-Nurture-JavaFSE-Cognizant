@@ -54,8 +54,8 @@ This document tracks the completion of all mandatory exercises for the Digital N
 - [x] Aspect-Oriented Programming (AOP Logging Aspect)
 
 ### Week 6: Hibernate & Spring Data JPA
-- [ ] JPA Entity Mapping and Relationships (@OneToMany, @ManyToOne)
-- [ ] Spring Data JPA Repositories (CRUD operations & custom @Query)
+- [x] JPA Entity Mapping and Relationships (@OneToMany, @ManyToOne)
+- [x] Spring Data JPA Repositories (CRUD operations & custom @Query)
 - [ ] Pagination & Sorting with Pageable
 - [ ] SonarQube static code quality configuration and scan runs
 

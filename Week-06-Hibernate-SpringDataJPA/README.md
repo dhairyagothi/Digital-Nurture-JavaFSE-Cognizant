@@ -32,3 +32,12 @@ Weekly content focusing on ORM persistence, database repositories, and static co
 - Build repository interfaces with CRUD capabilities and custom JPQL queries.
 - Add pagination and sorting support to repository search methods.
 - Run a SonarQube scan locally over the project and evaluate the Quality Gate report.
+
+### Spring Data JPA & Hibernate Hands-On Exercises (orm-learn)
+*   [pom.xml](file:///c:/personal%20dg/github_repo/Digital-Nurture-JavaFSE-Cognizant/Week-06-Hibernate-SpringDataJPA/orm-learn/pom.xml) - Maven configurations for Spring Boot Data JPA.
+*   [application.properties](file:///c:/personal%20dg/github_repo/Digital-Nurture-JavaFSE-Cognizant/Week-06-Hibernate-SpringDataJPA/orm-learn/src/main/resources/application.properties) - Console logs formatting and JDBC connectivity.
+*   [data.sql](file:///c:/personal%20dg/github_repo/Digital-Nurture-JavaFSE-Cognizant/Week-06-Hibernate-SpringDataJPA/orm-learn/src/main/resources/data.sql) - Population statements for 240+ countries.
+*   [Country.java](file:///c:/personal%20dg/github_repo/Digital-Nurture-JavaFSE-Cognizant/Week-06-Hibernate-SpringDataJPA/orm-learn/src/main/java/com/cognizant/ormlearn/model/Country.java) - JPA persistence mapping.
+*   [CountryRepository.java](file:///c:/personal%20dg/github_repo/Digital-Nurture-JavaFSE-Cognizant/Week-06-Hibernate-SpringDataJPA/orm-learn/src/main/java/com/cognizant/ormlearn/repository/CountryRepository.java) - Repository interface with derived search methods.
+*   [CountryService.java](file:///c:/personal%20dg/github_repo/Digital-Nurture-JavaFSE-Cognizant/Week-06-Hibernate-SpringDataJPA/orm-learn/src/main/java/com/cognizant/ormlearn/service/CountryService.java) - Service mappings containing transaction boundary declarations.
+*   [OrmLearnApplication.java](file:///c:/personal%20dg/github_repo/Digital-Nurture-JavaFSE-Cognizant/Week-06-Hibernate-SpringDataJPA/orm-learn/src/main/java/com/cognizant/ormlearn/OrmLearnApplication.java) - Main entry class executing lookup and DML updates tests.

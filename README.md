@@ -38,7 +38,7 @@ This repository contains hands-on exercises, practice programs, and trackers for
 | Week 3 | TDD, JUnit 5 & Mockito | [x] |
 | Week 4 | Logging & Automation Testing | [/] |
 | Week 5 | Spring Core & Maven | [x] |
-| Week 6 | Hibernate & Spring Data JPA | [ ] |
+| Week 6 | Hibernate & Spring Data JPA | [/] |
 | Week 7 | Spring Boot REST & Microservices | [ ] |
 | Week 8 | React, Git, Docker, Cloud & GenAI | [ ] |
 
