@@ -56,7 +56,7 @@ This document tracks the completion of all mandatory exercises for the Digital N
 ### Week 6: Hibernate & Spring Data JPA
 - [x] JPA Entity Mapping and Relationships (@OneToMany, @ManyToOne)
 - [x] Spring Data JPA Repositories (CRUD operations & custom @Query)
-- [ ] Pagination & Sorting with Pageable
+- [x] Pagination & Sorting with Pageable
 - [ ] SonarQube static code quality configuration and scan runs
 
 ### Week 7: Spring Boot REST & Microservices

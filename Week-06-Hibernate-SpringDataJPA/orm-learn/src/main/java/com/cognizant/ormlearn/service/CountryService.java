@@ -54,4 +54,9 @@ public class CountryService {
     public List<Country> findCountriesByNameContaining(String name) {
         return countryRepository.findByNameContainingOrderByNameAsc(name);
     }
+
+    @Transactional(readOnly = true)
+    public List<Country> findByCodeStartingWith(String letter) {
+        return countryRepository.findByCodeStartingWith(letter);
+    }
 }

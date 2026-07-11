@@ -10,4 +10,7 @@ public interface CountryRepository extends JpaRepository<Country, String> {
     
     // Method to find a list of countries matching partial country name, sorted by name
     List<Country> findByNameContainingOrderByNameAsc(String name);
+
+    // Method to find a list of countries starting with a specific alphabet
+    List<Country> findByCodeStartingWith(String letter);
 }
