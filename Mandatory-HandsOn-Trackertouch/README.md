@@ -67,7 +67,7 @@ This document tracks the completion of all mandatory exercises for the Digital N
 - [ ] Spring Security & JWT setup
 
 ### Week 8: React Frontend & DevOps
-- [ ] React SPA basic component with useState and useEffect
+- [x] React SPA basic component with useState and useEffect
 - [ ] React Forms and user input validations
 - [ ] Git version control branching and conflict merges
 - [ ] Docker containerization (Dockerfile & Docker Compose)
