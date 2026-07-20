@@ -59,9 +59,11 @@ This document tracks the completion of all mandatory exercises for the Digital N
 - [x] Pagination & Sorting with Pageable
 - [ ] SonarQube static code quality configuration and scan runs
 
-### Week 7: Spring Boot REST & Microservices
-- [ ] Spring Boot 3 REST Controllers (GET, POST, PUT, DELETE)
-- [ ] REST Exception Handling and Input validation
+### Week 7: Spring Boot & Microservices
+- [x] Spring Boot Basics, XML Configurations & Logging
+- [x] RESTful Web Services (GET endpoints & @PathVariable)
+- [x] Exception handling with @ResponseStatus
+- [x] End-to-end testing with MockMVC
 - [ ] Spring Cloud Netflix Eureka Service Discovery & Registry
 - [ ] Spring Cloud API Gateway configuration and routing
 - [ ] Spring Security & JWT setup
