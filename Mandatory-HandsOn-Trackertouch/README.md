@@ -62,11 +62,13 @@ This document tracks the completion of all mandatory exercises for the Digital N
 ### Week 7: Spring Boot & Microservices
 - [x] Spring Boot Basics, XML Configurations & Logging
 - [x] RESTful Web Services (GET endpoints & @PathVariable)
+- [x] RESTful Web Services (POST, PUT, DELETE endpoints & @Valid Input Validations)
+- [x] Global Exception Handling (@ControllerAdvice)
 - [x] Exception handling with @ResponseStatus
 - [x] End-to-end testing with MockMVC
 - [ ] Spring Cloud Netflix Eureka Service Discovery & Registry
 - [ ] Spring Cloud API Gateway configuration and routing
-- [ ] Spring Security & JWT setup
+- [x] Spring Security & JWT setup
 
 ### Week 8: React Frontend & DevOps
 - [x] React SPA basic component with useState and useEffect
